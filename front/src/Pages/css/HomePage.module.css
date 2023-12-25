@@ -1,0 +1,42 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 800px;
+  border-radius: 10px;
+  border: 1px solid RGB(232, 232, 232);
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 1.6rem;
+  font-weight: 600;
+  gap: 10px;
+  height: -moz-max-content;
+  height: max-content;
+}
+.user_box {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.user_controll {
+  display: flex;
+  gap: 20px;
+}
+.user_description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}/*# sourceMappingURL=HomePage.module.css.map */

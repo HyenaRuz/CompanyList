@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  database:
+    container_name: postgres
+    image: postgres:latest
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data/
+
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "3002:3002"
+    env_file:
+      - ./backend/.env
+
+  front:
+    container_name: front
+    build:
+      context: ./front
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"

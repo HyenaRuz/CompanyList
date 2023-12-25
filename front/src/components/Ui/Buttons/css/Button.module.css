@@ -1,0 +1,10 @@
+.button {
+  border: 1px solid #0a66c2;
+  padding: 12px 24px;
+  border-radius: 24px;
+  font-size: 1.6rem;
+  color: white;
+  background-color: #0a66c2;
+  cursor: pointer;
+  width: 100%;
+}/*# sourceMappingURL=Button.module.css.map */

@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 400px;
+  min-width: 352px;
+  width: auto;
+  border-radius: 10px;
+  border: 1px solid RGB(232, 232, 232);
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  &_name {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+    &_box {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  }
+  &_question {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    font-size: 1.6rem;
+  }
+}
+
+.button {
+  margin-top: 30px;
+  width: 100%;
+}

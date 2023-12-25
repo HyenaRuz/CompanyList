@@ -1,0 +1,62 @@
+.company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+
+  &_holder {
+    display: flex;
+    gap: 30px;
+    width: 75%;
+    border-radius: 10px;
+    border: 1px solid RGB(232, 232, 232);
+    padding: 24px;
+    background-color: white;
+    justify-content: space-between;
+
+    &_info {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  &_name {
+    font-size: 2rem;
+  }
+
+  &_box {
+    border-bottom: 1px dashed RGB(180, 180, 180);
+    padding-bottom: 5px;
+  }
+  &_title {
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+  }
+
+  &_description {
+    border-left: 1px dashed RGB(180, 180, 180);
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    p {
+      width: 90%;
+    }
+  }
+  &_goBack {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+
+
+    svg {
+      fill: #0a66c2;
+    }
+  }
+}

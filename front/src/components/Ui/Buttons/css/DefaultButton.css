@@ -1,0 +1,9 @@
+.defaultButton {
+  border: 1px solid black;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.defaultButton__title {
+  font-size: 1.6rem;
+  padding: 10px;
+}/*# sourceMappingURL=DefaultButton.css.map */
